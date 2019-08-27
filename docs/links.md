@@ -13,3 +13,6 @@ CONFIG_PREEMPT_RT - a patch to the Linux kernel to make it fully preemptible -- 
 - https://rt.wiki.kernel.org/index.php/Frequently_Asked_Questions
 - https://rt.wiki.kernel.org/index.php/CONFIG_PREEMPT_RT_Patch
 - https://wiki.linuxfoundation.org/realtime/documentation/howto/applications/preemptrt_setup
+
+Performance:
+- https://pcp.io/index.html
