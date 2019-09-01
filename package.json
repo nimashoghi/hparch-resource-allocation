@@ -1,0 +1,29 @@
+{
+    "name": "resource-allocation-node",
+    "version": "1.0.0",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc --build",
+        "clean": "tsc --build --clean && rm -rf ./dist/",
+        "start": "ts-node src/index.ts",
+        "watch": "tsc --build --watch"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "@types/csvtojson": "^1.1.5",
+        "@types/dockerode": "^2.5.20",
+        "@types/js-yaml": "^3.12.1",
+        "prettier": "^1.18.2",
+        "ts-node": "^8.3.0",
+        "typescript": "^3.6.2"
+    },
+    "dependencies": {
+        "csv-parse": "^4.4.5",
+        "csvtojson": "^2.0.10",
+        "dockerode": "^2.5.8",
+        "execa": "^2.0.4",
+        "js-yaml": "^3.13.1",
+        "rxjs": "^6.5.2"
+    }
+}
