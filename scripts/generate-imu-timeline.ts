@@ -1,4 +1,5 @@
 import csv from "csvtojson"
+import {promises as fs} from "fs"
 
 type Vec3 = [number, number, number]
 
@@ -30,7 +31,6 @@ const readCsv = async (path: string) => {
     }))
 }
 
-import {promises as fs} from "fs"
 const main = async () => {
     const timeline = await readCsv("./data.csv")
 

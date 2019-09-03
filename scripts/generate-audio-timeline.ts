@@ -1,6 +1,6 @@
 import {promises as fs} from "fs"
-import path from "path"
 import {getAudioDurationInSeconds} from "get-audio-duration"
+import path from "path"
 
 const settings = {
     maxDuration: 185,
