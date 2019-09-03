@@ -1,0 +1,167 @@
+{
+    "eventCount": 27,
+    "timeline": [
+        {
+            "timestamp": 0,
+            "command": "stop",
+            "location": "/home/nimas/Downloads/commands/stop/28ed6bc9_nohash_0.wav",
+            "duration": 1
+        },
+        {
+            "timestamp": 7.096691904291696,
+            "command": "left",
+            "location": "/home/nimas/Downloads/commands/left/26e573a9_nohash_0.wav",
+            "duration": 0.882375
+        },
+        {
+            "timestamp": 14.957695045073384,
+            "command": "no",
+            "location": "/home/nimas/Downloads/commands/no/06a79a03_nohash_0.wav",
+            "duration": 1
+        },
+        {
+            "timestamp": 22.11512075256983,
+            "command": "yes",
+            "location": "/home/nimas/Downloads/commands/yes/0137b3f4_nohash_1.wav",
+            "duration": 1
+        },
+        {
+            "timestamp": 27.33477329252517,
+            "command": "right",
+            "location": "/home/nimas/Downloads/commands/right/e7ea8b76_nohash_5.wav",
+            "duration": 1
+        },
+        {
+            "timestamp": 34.503778081758334,
+            "command": "off",
+            "location": "/home/nimas/Downloads/commands/off/173ce2be_nohash_2.wav",
+            "duration": 1
+        },
+        {
+            "timestamp": 39.98058683739027,
+            "command": "left",
+            "location": "/home/nimas/Downloads/commands/left/30a09789_nohash_0.wav",
+            "duration": 1
+        },
+        {
+            "timestamp": 47.40148883067594,
+            "command": "left",
+            "location": "/home/nimas/Downloads/commands/left/fac74f6a_nohash_1.wav",
+            "duration": 1
+        },
+        {
+            "timestamp": 55.24907696459496,
+            "command": "left",
+            "location": "/home/nimas/Downloads/commands/left/918a2473_nohash_2.wav",
+            "duration": 0.947063
+        },
+        {
+            "timestamp": 63.03246229566247,
+            "command": "up",
+            "location": "/home/nimas/Downloads/commands/up/179a61b7_nohash_1.wav",
+            "duration": 1
+        },
+        {
+            "timestamp": 68.4584401442833,
+            "command": "on",
+            "location": "/home/nimas/Downloads/commands/on/87014d40_nohash_0.wav",
+            "duration": 1
+        },
+        {
+            "timestamp": 75.13152048773654,
+            "command": "on",
+            "location": "/home/nimas/Downloads/commands/on/a8f45bdc_nohash_1.wav",
+            "duration": 1
+        },
+        {
+            "timestamp": 81.77739901810145,
+            "command": "on",
+            "location": "/home/nimas/Downloads/commands/on/e71b4ce6_nohash_0.wav",
+            "duration": 1
+        },
+        {
+            "timestamp": 89.76493598557252,
+            "command": "off",
+            "location": "/home/nimas/Downloads/commands/off/df038de4_nohash_0.wav",
+            "duration": 1
+        },
+        {
+            "timestamp": 97.73137325583585,
+            "command": "left",
+            "location": "/home/nimas/Downloads/commands/left/b21f0fa4_nohash_0.wav",
+            "duration": 1
+        },
+        {
+            "timestamp": 105.04356584437375,
+            "command": "no",
+            "location": "/home/nimas/Downloads/commands/no/099d52ad_nohash_1.wav",
+            "duration": 1
+        },
+        {
+            "timestamp": 112.12698153205098,
+            "command": "yes",
+            "location": "/home/nimas/Downloads/commands/yes/3bfd30e6_nohash_3.wav",
+            "duration": 1
+        },
+        {
+            "timestamp": 119.77514324749299,
+            "command": "left",
+            "location": "/home/nimas/Downloads/commands/left/fda46b78_nohash_0.wav",
+            "duration": 1
+        },
+        {
+            "timestamp": 126.15636754214316,
+            "command": "up",
+            "location": "/home/nimas/Downloads/commands/up/7e783e3f_nohash_0.wav",
+            "duration": 1
+        },
+        {
+            "timestamp": 132.00970806081583,
+            "command": "left",
+            "location": "/home/nimas/Downloads/commands/left/cc554de3_nohash_0.wav",
+            "duration": 1
+        },
+        {
+            "timestamp": 137.45381157062022,
+            "command": "yes",
+            "location": "/home/nimas/Downloads/commands/yes/65f2531f_nohash_4.wav",
+            "duration": 1
+        },
+        {
+            "timestamp": 144.9261015150973,
+            "command": "left",
+            "location": "/home/nimas/Downloads/commands/left/b1df80c0_nohash_0.wav",
+            "duration": 1
+        },
+        {
+            "timestamp": 152.74207730973254,
+            "command": "up",
+            "location": "/home/nimas/Downloads/commands/up/888a0c49_nohash_2.wav",
+            "duration": 1
+        },
+        {
+            "timestamp": 160.18463528438804,
+            "command": "no",
+            "location": "/home/nimas/Downloads/commands/no/84d1e469_nohash_2.wav",
+            "duration": 1
+        },
+        {
+            "timestamp": 167.61737833415523,
+            "command": "on",
+            "location": "/home/nimas/Downloads/commands/on/e1469561_nohash_4.wav",
+            "duration": 1
+        },
+        {
+            "timestamp": 173.57200589084482,
+            "command": "off",
+            "location": "/home/nimas/Downloads/commands/off/e82914c0_nohash_3.wav",
+            "duration": 1
+        },
+        {
+            "timestamp": 180.4272729418107,
+            "command": "no",
+            "location": "/home/nimas/Downloads/commands/no/264f471d_nohash_1.wav",
+            "duration": 1
+        }
+    ]
+}

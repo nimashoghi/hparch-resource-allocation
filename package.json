@@ -4,6 +4,10 @@
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "scripts": {
+        "generate-audio-timeline": "ts-node scripts/generate-audio-timeline.ts",
+        "generate-imu-timeline": "ts-node scripts/generate-imu-timeline.ts",
+        "generate-sign-timeline": "ts-node scripts/generate-sign-timeline.ts",
+        "generate-timelines": "yarn generate-audio-timeline && yarn generate-imu-timeline && yarn generate-sign-timeline",
         "build": "tsc --build",
         "clean": "tsc --build --clean && rm -rf ./dist/",
         "start": "ts-node src/index.ts",
@@ -14,6 +18,7 @@
         "@types/csvtojson": "^1.1.5",
         "@types/dockerode": "^2.5.20",
         "@types/js-yaml": "^3.12.1",
+        "get-audio-duration": "^1.0.0",
         "prettier": "^1.18.2",
         "ts-node": "^8.3.0",
         "typescript": "^3.6.2"
