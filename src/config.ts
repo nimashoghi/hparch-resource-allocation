@@ -31,10 +31,8 @@ export const config = <TSensors extends Sensors = Sensors>(
     modules,
 })
 
-export const getConfigPath = () =>
-    "/home/nimas/Repositories/resource-allocation-node/src/resources.config.ts"
-export const getDockerComposePath = () =>
-    "/home/nimas/Repositories/resource-allocation-node/docker-compose.yml"
+export const getConfigPath = () => "./resources.config"
+export const getDockerComposePath = () => "./docker-compose.yml"
 export const loadConfig = async (path: string): Promise<Config> =>
     (await import(path)).default
 export const loadYaml = async (path: string): Promise<DockerComposeConfig> =>

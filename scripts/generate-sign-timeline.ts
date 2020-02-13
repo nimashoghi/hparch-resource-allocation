@@ -1,15 +1,16 @@
 import {promises as fs} from "fs"
 import path from "path"
 //@ts-ignore
-import labels from "../../sign-detection/data/test.json"
+import labels from "/home/nimas/Downloads/signs/test.json"
 
 const settings = {
-    maxDuration: 185,
+    maxDuration: 15,
     delayBetweenCommands: 3,
     delayRandomOffset: 1,
 }
 
-const imagePath = "/home/nimas/Repositories/sign-detection/data/test"
+const imagePath = "/home/nimas/Downloads/signs/test/"
+const outPath = "http://192.168.1.5:8080/signs/test"
 const getRandomDelay = () =>
     settings.delayBetweenCommands + Math.random() * settings.delayRandomOffset
 
@@ -19,12 +20,12 @@ const pickRandom = <T>(items: T[]) =>
 const main = async () => {
     const subFiles = await fs.readdir(imagePath)
     const images = subFiles
-        .filter(location => !!labels[location])
+        .filter(location => !!(labels as any)[location])
         .map(location => ({
-            location: path.join(imagePath, location),
-            label: labels[location],
+            location: `${outPath}/${location}`,
+            localLocation: path.join(imagePath, location),
+            label: (labels as any)[location],
         }))
-    images // ?
 
     const timeline = []
 
@@ -36,7 +37,7 @@ const main = async () => {
     }
 
     await fs.writeFile(
-        "./sign-timeline.json",
+        "./shared/timelines/sign-timeline.json",
         JSON.stringify({eventCount: timeline.length, timeline}, undefined, 4),
     )
 }

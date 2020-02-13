@@ -1,5 +1,7 @@
 import csv from "csvtojson"
-import {Observable} from "rxjs"
+import {from, of} from "rxjs"
+import {delay, flatMap} from "rxjs/operators"
+import {Sensor} from "../types"
 import {Vec3} from "../util"
 
 interface IMURow {
@@ -13,33 +15,30 @@ interface IMURow {
 }
 
 const readCsv = async (path: string) => {
-    const [first, ...data] = ((await csv().fromFile(path)) as IMURow[]).map(
-        ({a_RS_S_x, a_RS_S_y, a_RS_S_z, timestamp}) => ({
+    const data = ((await csv().fromFile(path)) as IMURow[])
+        .map(({a_RS_S_x, a_RS_S_y, a_RS_S_z, timestamp}) => ({
             // the input dataset has the timestamp in units of ns, so we divide by 1e9 to get seconds
             timestamp: parseInt(timestamp) / 1e9,
             accelerometer: [a_RS_S_x, a_RS_S_y, a_RS_S_z].map(value =>
                 parseFloat(value),
             ) as Vec3,
-        }),
+        }))
+        .filter(
+            ({timestamp}) =>
+                timestamp >= 1403636627613555456 &&
+                timestamp <= 1403636645063555584,
+        )
+    return from(data).pipe(
+        flatMap(value =>
+            of(value).pipe(delay((value.timestamp - data[0].timestamp) * 1000)),
+        ),
     )
-
-    return new Observable<typeof first>(observer => {
-        const unsubscribe: (() => void)[] = []
-
-        observer.next(first)
-        for (const row of data) {
-            const timeDifferenceSeconds = row.timestamp - first.timestamp
-            const handle = setTimeout(
-                () => observer.next(row),
-                timeDifferenceSeconds * 1000,
-            )
-
-            unsubscribe.push(() => clearTimeout(handle))
-        }
-
-        return () => unsubscribe.forEach(f => f())
-    })
 }
 
-export default async () =>
-    await readCsv("/home/nimas/Repositories/resource-allocation-node/data.csv")
+export interface Accelerometer {
+    timestamp: number
+    accelerometer: Vec3
+}
+
+export const accelerometer: Sensor<Accelerometer> = async () =>
+    await readCsv("./data.csv")

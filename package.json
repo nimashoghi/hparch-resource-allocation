@@ -16,6 +16,7 @@
     "license": "MIT",
     "devDependencies": {
         "@types/csvtojson": "^1.1.5",
+        "@types/deep-equal": "^1.0.1",
         "@types/dockerode": "^2.5.20",
         "@types/js-yaml": "^3.12.1",
         "get-audio-duration": "^1.0.0",
@@ -26,9 +27,11 @@
     "dependencies": {
         "csv-parse": "^4.4.5",
         "csvtojson": "^2.0.10",
+        "deep-equal": "^1.1.0",
         "dockerode": "^2.5.8",
         "execa": "^2.0.4",
         "js-yaml": "^3.13.1",
+        "node-os-utils": "^1.0.7",
         "rxjs": "^6.5.2"
     }
 }

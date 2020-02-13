@@ -1,12 +1,7 @@
-import {combineLatest} from "rxjs"
-import {
-    bufferTime,
-    distinctUntilChanged,
-    map,
-    tap,
-    filter,
-} from "rxjs/operators"
-import {inspect} from "util"
+import deepEqual from "deep-equal"
+import {promises as fs} from "fs"
+import {combineLatest, interval} from "rxjs"
+import {distinctUntilChanged, filter, flatMap, map, share} from "rxjs/operators"
 import {
     checkConfig,
     ConstructedSensors,
@@ -17,10 +12,29 @@ import {
     Modules,
     Sensors,
 } from "./config"
-import {getDockerContainerFor, setWeight} from "./docker"
+import {measureCpuUsage} from "./cpu"
+import {getAllContainers, getDockerContainerFor, setWeight} from "./docker"
 import {foreachAsync, mapAsync, mapOptionAsync, toObject} from "./util"
 
 const BUFFER_DURATION = 100
+const INTERVAL_LENGTH = 1000
+
+const dockerInterval = interval(INTERVAL_LENGTH).pipe(
+    flatMap(async () => await getAllContainers()),
+    share(),
+)
+const watchDockerContainer = (name: string) =>
+    dockerInterval.pipe(
+        map(values => values.has(name)),
+        distinctUntilChanged((lhs, rhs) =>
+            deepEqual(lhs, rhs, {
+                strict: true,
+            }),
+        ),
+        // tap(value =>
+        //     console.log(`Container ${name} went ${value ? "up" : "down"}`),
+        // ),
+    )
 
 const parseConfig = async (path: {compose: string; config: string}) => {
     const [config, compose] = await Promise.all([
@@ -50,22 +64,32 @@ const initializeModules = async (
 ) => {
     const moduleWeights = await mapAsync(
         Object.entries(modulesObject),
-        async ([name, f]) =>
-            (await Promise.resolve(f(sensors))).pipe(
-                distinctUntilChanged(),
-                map(value => ({name, value})),
-                tap(({name, value}) =>
-                    console.log(`${name} changed to ${value}`),
+        async ([name, f]) => {
+            const weightUpdated = await Promise.resolve(f(sensors))
+            const containerStatusUpdated = watchDockerContainer(name)
+            return combineLatest([weightUpdated, containerStatusUpdated]).pipe(
+                map(([value, containerActive]) => ({
+                    name,
+                    value: containerActive ? value : 0,
+                })),
+                distinctUntilChanged(
+                    (lhs, rhs) =>
+                        lhs.value === rhs.value && lhs.name === rhs.name,
                 ),
-            ),
+                // tap(({name, value}) =>
+                //     console.log(`${name} changed to ${value}`),
+                // ),
+            )
+        },
     )
+
     return combineLatest(moduleWeights).pipe(
-        bufferTime(BUFFER_DURATION),
-        // bufferTime will call at BUFFER_DURATION regardless of change, so we filter that condition
-        filter(values => values.length !== 0),
+        // bufferTime(BUFFER_DURATION),
+        // // bufferTime will call at BUFFER_DURATION regardless of change, so we filter that condition
+        // filter(values => values.length !== 0),
 
         map(values =>
-            values.flat().reduce(
+            values.reduce(
                 (acc, {name, value}) => ({
                     ...acc,
                     [name]: value,
@@ -73,7 +97,43 @@ const initializeModules = async (
                 {} as Record<string, number>,
             ),
         ),
+        share(),
     )
+}
+
+const sleep = async (interval: number) =>
+    await new Promise<void>(resolve =>
+        setInterval(() => resolve(), interval * 1000),
+    )
+const start = async (path = "./shared/start.txt") => {
+    await fs.writeFile(path, "1")
+}
+
+let startTime: number
+let endTime: number
+
+const finished = () => {
+    console.log(
+        `Finished! Start: ${new Date(startTime)}; End: ${new Date(
+            endTime,
+        )}; Duration: ${(endTime - startTime) / 1000}`,
+    )
+}
+
+let weightsSet = false
+const writeWeights = async (
+    weights: {name: string; weight: number}[],
+    file = "./shared/out/weights.csv",
+) => {
+    if (!weightsSet) {
+        await fs.writeFile(file, `time,name,weight`)
+        weightsSet = true
+    }
+    const time = `${Date.now()}`
+    const content = weights
+        .map(({name, weight}) => [time, name, `${weight}`].join(","))
+        .join("\n")
+    await fs.appendFile(file, `${content}\n`)
 }
 
 const main = async () => {
@@ -88,14 +148,19 @@ const main = async () => {
     const sensors = await initializeSensors(config.sensors)
     const modules = await initializeModules(sensors, config.modules)
 
-    modules.subscribe(async weights => {
-        console.log(`Received the following weights: ${inspect(weights)}`)
-        const weightsArray = await mapOptionAsync(
+    await sleep(120)
+    await start()
+
+    startTime = Date.now()
+    measureCpuUsage()
+    const modulesSubscription = modules.subscribe(async weights => {
+        // console.log(`Received the following weights: ${inspect(weights)}`)
+        const weightsArrayUnfiltered = await mapOptionAsync(
             Object.entries(weights),
             async ([name, weight]) => {
                 const container = await getDockerContainerFor(name)
                 if (!container) {
-                    console.warn(
+                    console.log(
                         `Could not find container for docker container ${name}!`,
                     )
                     return undefined
@@ -103,10 +168,13 @@ const main = async () => {
                 return {container, name, weight} as const
             },
         )
+        const weightsArray = weightsArrayUnfiltered.filter(
+            value => value !== undefined,
+        )
         const sum = weightsArray.reduce((acc, {weight}) => acc + weight, 0)
         // if the sum is 0, then just quit right now
         if (!sum) {
-            console.warn(`The sum of received weights equals zero.`)
+            console.log(`The sum of received weights equals zero.`)
             return
         }
         const adjustedWeights = weightsArray.map(
@@ -116,15 +184,32 @@ const main = async () => {
                 weight: weight / sum,
             }),
         )
-        console.log(
-            `Adjusted weights. Setting Docker weights to: ${inspect(
-                toObject(adjustedWeights, ({name, weight}) => [name, weight]),
-            )}`,
-        )
+        writeWeights(adjustedWeights).catch(console.error)
+        // console.log(
+        //     `Adjusted weights. Setting Docker weights to: ${inspect(
+        //         toObject(adjustedWeights, ({name, weight}) => [name, weight]),
+        //     )}`,
+        // )
         await foreachAsync(adjustedWeights, async ({container, weight}) => {
             await setWeight(container.Id, weight)
         })
     })
+
+    const allModulesDisabledSubscription = dockerInterval
+        .pipe(
+            filter(
+                values =>
+                    Object.keys(config.modules).filter(key => values.has(key))
+                        .length === 0,
+            ),
+        )
+        .subscribe(() => {
+            endTime = Date.now()
+            modulesSubscription.unsubscribe()
+            allModulesDisabledSubscription.unsubscribe()
+            finished()
+            return
+        })
 }
 
 main().catch(console.error)

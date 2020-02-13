@@ -1,0 +1,2470 @@
+yarn run v1.17.3
+$ ts-node src/index.ts
+Starting the service...
+Parsed configs
+Container visual_slam went up
+visual_slam changed to 2.5
+Container command_recognition went up
+command_recognition changed to 0.1
+Container sign_recognition went up
+sign_recognition changed to 0.35
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.847457627118644,
+  command_recognition: 0.03389830508474576,
+  sign_recognition: 0.11864406779661016
+}
+visual_slam changed to 5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+visual_slam changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.847457627118644,
+  command_recognition: 0.03389830508474576,
+  sign_recognition: 0.11864406779661016
+}
+visual_slam changed to 5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+visual_slam changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 0.35 }
+visual_slam changed to 5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.847457627118644,
+  command_recognition: 0.03389830508474576,
+  sign_recognition: 0.11864406779661016
+}
+visual_slam changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+visual_slam changed to 5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.847457627118644,
+  command_recognition: 0.03389830508474576,
+  sign_recognition: 0.11864406779661016
+}
+visual_slam changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 0.35 }
+visual_slam changed to 5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+visual_slam changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.847457627118644,
+  command_recognition: 0.03389830508474576,
+  sign_recognition: 0.11864406779661016
+}
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.847457627118644,
+  command_recognition: 0.03389830508474576,
+  sign_recognition: 0.11864406779661016
+}
+visual_slam changed to 5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+visual_slam changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.847457627118644,
+  command_recognition: 0.03389830508474576,
+  sign_recognition: 0.11864406779661016
+}
+command_recognition changed to 1
+Received the following weights: { visual_slam: 2.5, command_recognition: 1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.6493506493506493,
+  command_recognition: 0.2597402597402597,
+  sign_recognition: 0.0909090909090909
+}
+visual_slam changed to 5
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.7874015748031497,
+  command_recognition: 0.15748031496062992,
+  sign_recognition: 0.05511811023622047
+}
+visual_slam changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 1, sign_recognition: 0.35 }
+visual_slam changed to 5
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 0.35 }
+visual_slam changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.6493506493506493,
+  command_recognition: 0.2597402597402597,
+  sign_recognition: 0.0909090909090909
+}
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.7874015748031497,
+  command_recognition: 0.15748031496062992,
+  sign_recognition: 0.05511811023622047
+}
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.6493506493506493,
+  command_recognition: 0.2597402597402597,
+  sign_recognition: 0.0909090909090909
+}
+visual_slam changed to 5
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.7874015748031497,
+  command_recognition: 0.15748031496062992,
+  sign_recognition: 0.05511811023622047
+}
+visual_slam changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 1, sign_recognition: 0.35 }
+visual_slam changed to 5
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 0.35 }
+visual_slam changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.6493506493506493,
+  command_recognition: 0.2597402597402597,
+  sign_recognition: 0.0909090909090909
+}
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.6493506493506493,
+  command_recognition: 0.2597402597402597,
+  sign_recognition: 0.0909090909090909
+}
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.7874015748031497,
+  command_recognition: 0.15748031496062992,
+  sign_recognition: 0.05511811023622047
+}
+visual_slam changed to 5
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 0.35 }
+visual_slam changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.7874015748031497,
+  command_recognition: 0.15748031496062992,
+  sign_recognition: 0.05511811023622047
+}
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.6493506493506493,
+  command_recognition: 0.2597402597402597,
+  sign_recognition: 0.0909090909090909
+}
+sign_recognition changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.4166666666666667,
+  command_recognition: 0.16666666666666666,
+  sign_recognition: 0.4166666666666667
+}
+command_recognition changed to 0.1
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.4901960784313726,
+  command_recognition: 0.019607843137254905,
+  sign_recognition: 0.4901960784313726
+}
+sign_recognition changed to 0.35
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.847457627118644,
+  command_recognition: 0.03389830508474576,
+  sign_recognition: 0.11864406779661016
+}
+visual_slam changed to 5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+visual_slam changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.847457627118644,
+  command_recognition: 0.03389830508474576,
+  sign_recognition: 0.11864406779661016
+}
+visual_slam changed to 5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+visual_slam changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.847457627118644,
+  command_recognition: 0.03389830508474576,
+  sign_recognition: 0.11864406779661016
+}
+visual_slam changed to 5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+visual_slam changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.847457627118644,
+  command_recognition: 0.03389830508474576,
+  sign_recognition: 0.11864406779661016
+}
+visual_slam changed to 5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+visual_slam changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.847457627118644,
+  command_recognition: 0.03389830508474576,
+  sign_recognition: 0.11864406779661016
+}
+command_recognition changed to 1
+Received the following weights: { visual_slam: 2.5, command_recognition: 1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.6493506493506493,
+  command_recognition: 0.2597402597402597,
+  sign_recognition: 0.0909090909090909
+}
+sign_recognition changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.4166666666666667,
+  command_recognition: 0.16666666666666666,
+  sign_recognition: 0.4166666666666667
+}
+command_recognition changed to 0.1
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.4901960784313726,
+  command_recognition: 0.019607843137254905,
+  sign_recognition: 0.4901960784313726
+}
+sign_recognition changed to 0.35
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.847457627118644,
+  command_recognition: 0.03389830508474576,
+  sign_recognition: 0.11864406779661016
+}
+visual_slam changed to 5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+visual_slam changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 0.35 }
+visual_slam changed to 5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+visual_slam changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.847457627118644,
+  command_recognition: 0.03389830508474576,
+  sign_recognition: 0.11864406779661016
+}
+visual_slam changed to 5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+visual_slam changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.847457627118644,
+  command_recognition: 0.03389830508474576,
+  sign_recognition: 0.11864406779661016
+}
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.847457627118644,
+  command_recognition: 0.03389830508474576,
+  sign_recognition: 0.11864406779661016
+}
+command_recognition changed to 1
+Received the following weights: { visual_slam: 2.5, command_recognition: 1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.6493506493506493,
+  command_recognition: 0.2597402597402597,
+  sign_recognition: 0.0909090909090909
+}
+sign_recognition changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.4166666666666667,
+  command_recognition: 0.16666666666666666,
+  sign_recognition: 0.4166666666666667
+}
+command_recognition changed to 0.1
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.4901960784313726,
+  command_recognition: 0.019607843137254905,
+  sign_recognition: 0.4901960784313726
+}
+visual_slam changed to 5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.6578947368421053,
+  command_recognition: 0.013157894736842106,
+  sign_recognition: 0.32894736842105265
+}
+visual_slam changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.4901960784313726,
+  command_recognition: 0.019607843137254905,
+  sign_recognition: 0.4901960784313726
+}
+sign_recognition changed to 0.35
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.847457627118644,
+  command_recognition: 0.03389830508474576,
+  sign_recognition: 0.11864406779661016
+}
+command_recognition changed to 1
+Received the following weights: { visual_slam: 2.5, command_recognition: 1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.6493506493506493,
+  command_recognition: 0.2597402597402597,
+  sign_recognition: 0.0909090909090909
+}
+sign_recognition changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.4166666666666667,
+  command_recognition: 0.16666666666666666,
+  sign_recognition: 0.4166666666666667
+}
+command_recognition changed to 0.1
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.4901960784313726,
+  command_recognition: 0.019607843137254905,
+  sign_recognition: 0.4901960784313726
+}
+visual_slam changed to 5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 2.5 }
+visual_slam changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.4901960784313726,
+  command_recognition: 0.019607843137254905,
+  sign_recognition: 0.4901960784313726
+}
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.6578947368421053,
+  command_recognition: 0.013157894736842106,
+  sign_recognition: 0.32894736842105265
+}
+sign_recognition changed to 0.35
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.847457627118644,
+  command_recognition: 0.03389830508474576,
+  sign_recognition: 0.11864406779661016
+}
+visual_slam changed to 5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+visual_slam changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.847457627118644,
+  command_recognition: 0.03389830508474576,
+  sign_recognition: 0.11864406779661016
+}
+command_recognition changed to 1
+Received the following weights: { visual_slam: 2.5, command_recognition: 1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.6493506493506493,
+  command_recognition: 0.2597402597402597,
+  sign_recognition: 0.0909090909090909
+}
+visual_slam changed to 5
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 0.35 }
+visual_slam changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.7874015748031497,
+  command_recognition: 0.15748031496062992,
+  sign_recognition: 0.05511811023622047
+}
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.6493506493506493,
+  command_recognition: 0.2597402597402597,
+  sign_recognition: 0.0909090909090909
+}
+sign_recognition changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.4166666666666667,
+  command_recognition: 0.16666666666666666,
+  sign_recognition: 0.4166666666666667
+}
+command_recognition changed to 0.1
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.4901960784313726,
+  command_recognition: 0.019607843137254905,
+  sign_recognition: 0.4901960784313726
+}
+sign_recognition changed to 0.35
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.847457627118644,
+  command_recognition: 0.03389830508474576,
+  sign_recognition: 0.11864406779661016
+}
+visual_slam changed to 5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+visual_slam changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.847457627118644,
+  command_recognition: 0.03389830508474576,
+  sign_recognition: 0.11864406779661016
+}
+visual_slam changed to 5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+visual_slam changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.847457627118644,
+  command_recognition: 0.03389830508474576,
+  sign_recognition: 0.11864406779661016
+}
+visual_slam changed to 5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+visual_slam changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.847457627118644,
+  command_recognition: 0.03389830508474576,
+  sign_recognition: 0.11864406779661016
+}
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+visual_slam changed to 5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+visual_slam changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.847457627118644,
+  command_recognition: 0.03389830508474576,
+  sign_recognition: 0.11864406779661016
+}
+visual_slam changed to 5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+visual_slam changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 0.35 }
+visual_slam changed to 5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+visual_slam changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.847457627118644,
+  command_recognition: 0.03389830508474576,
+  sign_recognition: 0.11864406779661016
+}
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+visual_slam changed to 5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.847457627118644,
+  command_recognition: 0.03389830508474576,
+  sign_recognition: 0.11864406779661016
+}
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+visual_slam changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.847457627118644,
+  command_recognition: 0.03389830508474576,
+  sign_recognition: 0.11864406779661016
+}
+visual_slam changed to 5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+visual_slam changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+visual_slam changed to 5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+visual_slam changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 0.35 }
+visual_slam changed to 5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+visual_slam changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.847457627118644,
+  command_recognition: 0.03389830508474576,
+  sign_recognition: 0.11864406779661016
+}
+visual_slam changed to 5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+visual_slam changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.847457627118644,
+  command_recognition: 0.03389830508474576,
+  sign_recognition: 0.11864406779661016
+}
+visual_slam changed to 5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+visual_slam changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.847457627118644,
+  command_recognition: 0.03389830508474576,
+  sign_recognition: 0.11864406779661016
+}
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.847457627118644,
+  command_recognition: 0.03389830508474576,
+  sign_recognition: 0.11864406779661016
+}
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+visual_slam changed to 5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+visual_slam changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 0.35 }
+visual_slam changed to 5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+visual_slam changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 0.35 }
+visual_slam changed to 5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+visual_slam changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 0.35 }
+visual_slam changed to 5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+visual_slam changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 0.35 }
+visual_slam changed to 5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+visual_slam changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 0.35 }
+visual_slam changed to 5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.847457627118644,
+  command_recognition: 0.03389830508474576,
+  sign_recognition: 0.11864406779661016
+}
+visual_slam changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 0.35 }
+visual_slam changed to 5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+visual_slam changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.847457627118644,
+  command_recognition: 0.03389830508474576,
+  sign_recognition: 0.11864406779661016
+}
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.847457627118644,
+  command_recognition: 0.03389830508474576,
+  sign_recognition: 0.11864406779661016
+}
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.847457627118644,
+  command_recognition: 0.03389830508474576,
+  sign_recognition: 0.11864406779661016
+}
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.847457627118644,
+  command_recognition: 0.03389830508474576,
+  sign_recognition: 0.11864406779661016
+}
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.847457627118644,
+  command_recognition: 0.03389830508474576,
+  sign_recognition: 0.11864406779661016
+}
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.847457627118644,
+  command_recognition: 0.03389830508474576,
+  sign_recognition: 0.11864406779661016
+}
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.847457627118644,
+  command_recognition: 0.03389830508474576,
+  sign_recognition: 0.11864406779661016
+}
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+sign_recognition changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 2.5 }
+command_recognition changed to 1
+Received the following weights: { visual_slam: 2.5, command_recognition: 1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.4901960784313726,
+  command_recognition: 0.019607843137254905,
+  sign_recognition: 0.4901960784313726
+}
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.4166666666666667,
+  command_recognition: 0.16666666666666666,
+  sign_recognition: 0.4166666666666667
+}
+command_recognition changed to 0.1
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 2.5 }
+sign_recognition changed to 0.35
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.847457627118644,
+  command_recognition: 0.03389830508474576,
+  sign_recognition: 0.11864406779661016
+}
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.4901960784313726,
+  command_recognition: 0.019607843137254905,
+  sign_recognition: 0.4901960784313726
+}
+command_recognition changed to 1
+Received the following weights: { visual_slam: 2.5, command_recognition: 1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.6493506493506493,
+  command_recognition: 0.2597402597402597,
+  sign_recognition: 0.0909090909090909
+}
+sign_recognition changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.4166666666666667,
+  command_recognition: 0.16666666666666666,
+  sign_recognition: 0.4166666666666667
+}
+command_recognition changed to 0.1
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.4901960784313726,
+  command_recognition: 0.019607843137254905,
+  sign_recognition: 0.4901960784313726
+}
+sign_recognition changed to 0.35
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.847457627118644,
+  command_recognition: 0.03389830508474576,
+  sign_recognition: 0.11864406779661016
+}
+command_recognition changed to 1
+Received the following weights: { visual_slam: 2.5, command_recognition: 1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.6493506493506493,
+  command_recognition: 0.2597402597402597,
+  sign_recognition: 0.0909090909090909
+}
+command_recognition changed to 0.1
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.847457627118644,
+  command_recognition: 0.03389830508474576,
+  sign_recognition: 0.11864406779661016
+}
+sign_recognition changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.4901960784313726,
+  command_recognition: 0.019607843137254905,
+  sign_recognition: 0.4901960784313726
+}
+sign_recognition changed to 0.35
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.847457627118644,
+  command_recognition: 0.03389830508474576,
+  sign_recognition: 0.11864406779661016
+}
+visual_slam changed to 5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+visual_slam changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+visual_slam changed to 5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+visual_slam changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.847457627118644,
+  command_recognition: 0.03389830508474576,
+  sign_recognition: 0.11864406779661016
+}
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.847457627118644,
+  command_recognition: 0.03389830508474576,
+  sign_recognition: 0.11864406779661016
+}
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+command_recognition changed to 1
+Received the following weights: { visual_slam: 2.5, command_recognition: 1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.6493506493506493,
+  command_recognition: 0.2597402597402597,
+  sign_recognition: 0.0909090909090909
+}
+visual_slam changed to 5
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.7874015748031497,
+  command_recognition: 0.15748031496062992,
+  sign_recognition: 0.05511811023622047
+}
+command_recognition changed to 0.1
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+sign_recognition changed to 2.5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.6578947368421053,
+  command_recognition: 0.013157894736842106,
+  sign_recognition: 0.32894736842105265
+}
+visual_slam changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 2.5 }
+visual_slam changed to 5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.4901960784313726,
+  command_recognition: 0.019607843137254905,
+  sign_recognition: 0.4901960784313726
+}
+visual_slam changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.6578947368421053,
+  command_recognition: 0.013157894736842106,
+  sign_recognition: 0.32894736842105265
+}
+visual_slam changed to 5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.4901960784313726,
+  command_recognition: 0.019607843137254905,
+  sign_recognition: 0.4901960784313726
+}
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.6578947368421053,
+  command_recognition: 0.013157894736842106,
+  sign_recognition: 0.32894736842105265
+}
+visual_slam changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.4901960784313726,
+  command_recognition: 0.019607843137254905,
+  sign_recognition: 0.4901960784313726
+}
+visual_slam changed to 5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 2.5 }
+visual_slam changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 2.5 }
+visual_slam changed to 5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 2.5 }
+visual_slam changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.6578947368421053,
+  command_recognition: 0.013157894736842106,
+  sign_recognition: 0.32894736842105265
+}
+visual_slam changed to 5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 2.5 }
+visual_slam changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.6578947368421053,
+  command_recognition: 0.013157894736842106,
+  sign_recognition: 0.32894736842105265
+}
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.4901960784313726,
+  command_recognition: 0.019607843137254905,
+  sign_recognition: 0.4901960784313726
+}
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.4901960784313726,
+  command_recognition: 0.019607843137254905,
+  sign_recognition: 0.4901960784313726
+}
+visual_slam changed to 5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 2.5 }
+visual_slam changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.6578947368421053,
+  command_recognition: 0.013157894736842106,
+  sign_recognition: 0.32894736842105265
+}
+visual_slam changed to 5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.6578947368421053,
+  command_recognition: 0.013157894736842106,
+  sign_recognition: 0.32894736842105265
+}
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.4901960784313726,
+  command_recognition: 0.019607843137254905,
+  sign_recognition: 0.4901960784313726
+}
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.4901960784313726,
+  command_recognition: 0.019607843137254905,
+  sign_recognition: 0.4901960784313726
+}
+sign_recognition changed to 0.35
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+visual_slam changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.6578947368421053,
+  command_recognition: 0.013157894736842106,
+  sign_recognition: 0.32894736842105265
+}
+visual_slam changed to 5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+visual_slam changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 0.35 }
+visual_slam changed to 5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+visual_slam changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.847457627118644,
+  command_recognition: 0.03389830508474576,
+  sign_recognition: 0.11864406779661016
+}
+visual_slam changed to 5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+visual_slam changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 0.35 }
+visual_slam changed to 5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+visual_slam changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.847457627118644,
+  command_recognition: 0.03389830508474576,
+  sign_recognition: 0.11864406779661016
+}
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.847457627118644,
+  command_recognition: 0.03389830508474576,
+  sign_recognition: 0.11864406779661016
+}
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.847457627118644,
+  command_recognition: 0.03389830508474576,
+  sign_recognition: 0.11864406779661016
+}
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.847457627118644,
+  command_recognition: 0.03389830508474576,
+  sign_recognition: 0.11864406779661016
+}
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+command_recognition changed to 1
+Received the following weights: { visual_slam: 2.5, command_recognition: 1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.6493506493506493,
+  command_recognition: 0.2597402597402597,
+  sign_recognition: 0.0909090909090909
+}
+sign_recognition changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.4166666666666667,
+  command_recognition: 0.16666666666666666,
+  sign_recognition: 0.4166666666666667
+}
+command_recognition changed to 0.1
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.4901960784313726,
+  command_recognition: 0.019607843137254905,
+  sign_recognition: 0.4901960784313726
+}
+sign_recognition changed to 0.35
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.847457627118644,
+  command_recognition: 0.03389830508474576,
+  sign_recognition: 0.11864406779661016
+}
+command_recognition changed to 1
+Received the following weights: { visual_slam: 2.5, command_recognition: 1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.6493506493506493,
+  command_recognition: 0.2597402597402597,
+  sign_recognition: 0.0909090909090909
+}
+sign_recognition changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.4166666666666667,
+  command_recognition: 0.16666666666666666,
+  sign_recognition: 0.4166666666666667
+}
+visual_slam changed to 5
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.5882352941176471,
+  command_recognition: 0.11764705882352941,
+  sign_recognition: 0.29411764705882354
+}
+visual_slam changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.4166666666666667,
+  command_recognition: 0.16666666666666666,
+  sign_recognition: 0.4166666666666667
+}
+visual_slam changed to 5
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 2.5 }
+visual_slam changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 1, sign_recognition: 2.5 }
+visual_slam changed to 5
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.5882352941176471,
+  command_recognition: 0.11764705882352941,
+  sign_recognition: 0.29411764705882354
+}
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.5882352941176471,
+  command_recognition: 0.11764705882352941,
+  sign_recognition: 0.29411764705882354
+}
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.4166666666666667,
+  command_recognition: 0.16666666666666666,
+  sign_recognition: 0.4166666666666667
+}
+sign_recognition changed to 0.35
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.7874015748031497,
+  command_recognition: 0.15748031496062992,
+  sign_recognition: 0.05511811023622047
+}
+command_recognition changed to 0.1
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+visual_slam changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 0.35 }
+visual_slam changed to 5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.847457627118644,
+  command_recognition: 0.03389830508474576,
+  sign_recognition: 0.11864406779661016
+}
+visual_slam changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.847457627118644,
+  command_recognition: 0.03389830508474576,
+  sign_recognition: 0.11864406779661016
+}
+visual_slam changed to 5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+visual_slam changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 0.35 }
+visual_slam changed to 5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.847457627118644,
+  command_recognition: 0.03389830508474576,
+  sign_recognition: 0.11864406779661016
+}
+visual_slam changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 0.35 }
+visual_slam changed to 5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.847457627118644,
+  command_recognition: 0.03389830508474576,
+  sign_recognition: 0.11864406779661016
+}
+visual_slam changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 0.35 }
+visual_slam changed to 5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+visual_slam changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 0.35 }
+visual_slam changed to 5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+visual_slam changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 0.35 }
+visual_slam changed to 5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.847457627118644,
+  command_recognition: 0.03389830508474576,
+  sign_recognition: 0.11864406779661016
+}
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+visual_slam changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 0.35 }
+visual_slam changed to 5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+visual_slam changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 0.35 }
+visual_slam changed to 5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.847457627118644,
+  command_recognition: 0.03389830508474576,
+  sign_recognition: 0.11864406779661016
+}
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.847457627118644,
+  command_recognition: 0.03389830508474576,
+  sign_recognition: 0.11864406779661016
+}
+visual_slam changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 0.35 }
+visual_slam changed to 5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+visual_slam changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 0.35 }
+visual_slam changed to 5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+visual_slam changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 0.35 }
+visual_slam changed to 5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.847457627118644,
+  command_recognition: 0.03389830508474576,
+  sign_recognition: 0.11864406779661016
+}
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.847457627118644,
+  command_recognition: 0.03389830508474576,
+  sign_recognition: 0.11864406779661016
+}
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.847457627118644,
+  command_recognition: 0.03389830508474576,
+  sign_recognition: 0.11864406779661016
+}
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.847457627118644,
+  command_recognition: 0.03389830508474576,
+  sign_recognition: 0.11864406779661016
+}
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.847457627118644,
+  command_recognition: 0.03389830508474576,
+  sign_recognition: 0.11864406779661016
+}
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+sign_recognition changed to 2.5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.6578947368421053,
+  command_recognition: 0.013157894736842106,
+  sign_recognition: 0.32894736842105265
+}
+command_recognition changed to 1
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.5882352941176471,
+  command_recognition: 0.11764705882352941,
+  sign_recognition: 0.29411764705882354
+}
+sign_recognition changed to 0.35
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.7874015748031497,
+  command_recognition: 0.15748031496062992,
+  sign_recognition: 0.05511811023622047
+}
+command_recognition changed to 0.1
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+sign_recognition changed to 2.5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.6578947368421053,
+  command_recognition: 0.013157894736842106,
+  sign_recognition: 0.32894736842105265
+}
+command_recognition changed to 1
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.5882352941176471,
+  command_recognition: 0.11764705882352941,
+  sign_recognition: 0.29411764705882354
+}
+sign_recognition changed to 0.35
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.7874015748031497,
+  command_recognition: 0.15748031496062992,
+  sign_recognition: 0.05511811023622047
+}
+command_recognition changed to 0.1
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+sign_recognition changed to 2.5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.6578947368421053,
+  command_recognition: 0.013157894736842106,
+  sign_recognition: 0.32894736842105265
+}
+command_recognition changed to 1
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.5882352941176471,
+  command_recognition: 0.11764705882352941,
+  sign_recognition: 0.29411764705882354
+}
+sign_recognition changed to 0.35
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.7874015748031497,
+  command_recognition: 0.15748031496062992,
+  sign_recognition: 0.05511811023622047
+}
+command_recognition changed to 0.1
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+sign_recognition changed to 2.5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.6578947368421053,
+  command_recognition: 0.013157894736842106,
+  sign_recognition: 0.32894736842105265
+}
+command_recognition changed to 1
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.5882352941176471,
+  command_recognition: 0.11764705882352941,
+  sign_recognition: 0.29411764705882354
+}
+sign_recognition changed to 0.35
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.7874015748031497,
+  command_recognition: 0.15748031496062992,
+  sign_recognition: 0.05511811023622047
+}
+command_recognition changed to 0.1
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+command_recognition changed to 1
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.7874015748031497,
+  command_recognition: 0.15748031496062992,
+  sign_recognition: 0.05511811023622047
+}
+sign_recognition changed to 2.5
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.5882352941176471,
+  command_recognition: 0.11764705882352941,
+  sign_recognition: 0.29411764705882354
+}
+command_recognition changed to 0.1
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.6578947368421053,
+  command_recognition: 0.013157894736842106,
+  sign_recognition: 0.32894736842105265
+}
+sign_recognition changed to 0.35
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+sign_recognition changed to 2.5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.6578947368421053,
+  command_recognition: 0.013157894736842106,
+  sign_recognition: 0.32894736842105265
+}
+command_recognition changed to 1
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.5882352941176471,
+  command_recognition: 0.11764705882352941,
+  sign_recognition: 0.29411764705882354
+}
+sign_recognition changed to 0.35
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.7874015748031497,
+  command_recognition: 0.15748031496062992,
+  sign_recognition: 0.05511811023622047
+}
+command_recognition changed to 0.1
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+sign_recognition changed to 2.5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.6578947368421053,
+  command_recognition: 0.013157894736842106,
+  sign_recognition: 0.32894736842105265
+}
+command_recognition changed to 1
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.5882352941176471,
+  command_recognition: 0.11764705882352941,
+  sign_recognition: 0.29411764705882354
+}
+sign_recognition changed to 0.35
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.7874015748031497,
+  command_recognition: 0.15748031496062992,
+  sign_recognition: 0.05511811023622047
+}
+command_recognition changed to 0.1
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+sign_recognition changed to 2.5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.6578947368421053,
+  command_recognition: 0.013157894736842106,
+  sign_recognition: 0.32894736842105265
+}
+command_recognition changed to 1
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.5882352941176471,
+  command_recognition: 0.11764705882352941,
+  sign_recognition: 0.29411764705882354
+}
+sign_recognition changed to 0.35
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.7874015748031497,
+  command_recognition: 0.15748031496062992,
+  sign_recognition: 0.05511811023622047
+}
+command_recognition changed to 0.1
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+sign_recognition changed to 2.5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.6578947368421053,
+  command_recognition: 0.013157894736842106,
+  sign_recognition: 0.32894736842105265
+}
+command_recognition changed to 1
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.5882352941176471,
+  command_recognition: 0.11764705882352941,
+  sign_recognition: 0.29411764705882354
+}
+sign_recognition changed to 0.35
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.7874015748031497,
+  command_recognition: 0.15748031496062992,
+  sign_recognition: 0.05511811023622047
+}
+command_recognition changed to 0.1
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+sign_recognition changed to 2.5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.6578947368421053,
+  command_recognition: 0.013157894736842106,
+  sign_recognition: 0.32894736842105265
+}
+sign_recognition changed to 0.35
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+command_recognition changed to 1
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.7874015748031497,
+  command_recognition: 0.15748031496062992,
+  sign_recognition: 0.05511811023622047
+}
+command_recognition changed to 0.1
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+sign_recognition changed to 2.5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.6578947368421053,
+  command_recognition: 0.013157894736842106,
+  sign_recognition: 0.32894736842105265
+}
+sign_recognition changed to 0.35
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+command_recognition changed to 1
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.7874015748031497,
+  command_recognition: 0.15748031496062992,
+  sign_recognition: 0.05511811023622047
+}
+command_recognition changed to 0.1
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+sign_recognition changed to 2.5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.6578947368421053,
+  command_recognition: 0.013157894736842106,
+  sign_recognition: 0.32894736842105265
+}
+command_recognition changed to 1
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.5882352941176471,
+  command_recognition: 0.11764705882352941,
+  sign_recognition: 0.29411764705882354
+}
+sign_recognition changed to 0.35
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.7874015748031497,
+  command_recognition: 0.15748031496062992,
+  sign_recognition: 0.05511811023622047
+}
+command_recognition changed to 0.1
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+sign_recognition changed to 2.5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.6578947368421053,
+  command_recognition: 0.013157894736842106,
+  sign_recognition: 0.32894736842105265
+}
+command_recognition changed to 1
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.5882352941176471,
+  command_recognition: 0.11764705882352941,
+  sign_recognition: 0.29411764705882354
+}
+sign_recognition changed to 0.35
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.7874015748031497,
+  command_recognition: 0.15748031496062992,
+  sign_recognition: 0.05511811023622047
+}
+command_recognition changed to 0.1
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+command_recognition changed to 1
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.7874015748031497,
+  command_recognition: 0.15748031496062992,
+  sign_recognition: 0.05511811023622047
+}
+sign_recognition changed to 2.5
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.5882352941176471,
+  command_recognition: 0.11764705882352941,
+  sign_recognition: 0.29411764705882354
+}
+sign_recognition changed to 0.35
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.7874015748031497,
+  command_recognition: 0.15748031496062992,
+  sign_recognition: 0.05511811023622047
+}
+command_recognition changed to 0.1
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+sign_recognition changed to 2.5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.6578947368421053,
+  command_recognition: 0.013157894736842106,
+  sign_recognition: 0.32894736842105265
+}
+command_recognition changed to 1
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.5882352941176471,
+  command_recognition: 0.11764705882352941,
+  sign_recognition: 0.29411764705882354
+}
+sign_recognition changed to 0.35
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.7874015748031497,
+  command_recognition: 0.15748031496062992,
+  sign_recognition: 0.05511811023622047
+}
+command_recognition changed to 0.1
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+command_recognition changed to 1
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.7874015748031497,
+  command_recognition: 0.15748031496062992,
+  sign_recognition: 0.05511811023622047
+}
+sign_recognition changed to 2.5
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.5882352941176471,
+  command_recognition: 0.11764705882352941,
+  sign_recognition: 0.29411764705882354
+}
+sign_recognition changed to 0.35
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.7874015748031497,
+  command_recognition: 0.15748031496062992,
+  sign_recognition: 0.05511811023622047
+}
+command_recognition changed to 0.1
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+command_recognition changed to 1
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.7874015748031497,
+  command_recognition: 0.15748031496062992,
+  sign_recognition: 0.05511811023622047
+}
+sign_recognition changed to 2.5
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.5882352941176471,
+  command_recognition: 0.11764705882352941,
+  sign_recognition: 0.29411764705882354
+}
+command_recognition changed to 0.1
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.6578947368421053,
+  command_recognition: 0.013157894736842106,
+  sign_recognition: 0.32894736842105265
+}
+sign_recognition changed to 0.35
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+command_recognition changed to 1
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.7874015748031497,
+  command_recognition: 0.15748031496062992,
+  sign_recognition: 0.05511811023622047
+}
+sign_recognition changed to 2.5
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.5882352941176471,
+  command_recognition: 0.11764705882352941,
+  sign_recognition: 0.29411764705882354
+}
+command_recognition changed to 0.1
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.6578947368421053,
+  command_recognition: 0.013157894736842106,
+  sign_recognition: 0.32894736842105265
+}
+sign_recognition changed to 0.35
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+command_recognition changed to 1
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.7874015748031497,
+  command_recognition: 0.15748031496062992,
+  sign_recognition: 0.05511811023622047
+}
+command_recognition changed to 0.1
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+sign_recognition changed to 2.5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.6578947368421053,
+  command_recognition: 0.013157894736842106,
+  sign_recognition: 0.32894736842105265
+}
+sign_recognition changed to 0.35
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+command_recognition changed to 1
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.7874015748031497,
+  command_recognition: 0.15748031496062992,
+  sign_recognition: 0.05511811023622047
+}
+command_recognition changed to 0.1
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+sign_recognition changed to 2.5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.6578947368421053,
+  command_recognition: 0.013157894736842106,
+  sign_recognition: 0.32894736842105265
+}
+sign_recognition changed to 0.35
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+command_recognition changed to 1
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.7874015748031497,
+  command_recognition: 0.15748031496062992,
+  sign_recognition: 0.05511811023622047
+}
+sign_recognition changed to 2.5
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.5882352941176471,
+  command_recognition: 0.11764705882352941,
+  sign_recognition: 0.29411764705882354
+}
+command_recognition changed to 0.1
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.6578947368421053,
+  command_recognition: 0.013157894736842106,
+  sign_recognition: 0.32894736842105265
+}
+sign_recognition changed to 0.35
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+command_recognition changed to 1
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.7874015748031497,
+  command_recognition: 0.15748031496062992,
+  sign_recognition: 0.05511811023622047
+}
+sign_recognition changed to 2.5
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.5882352941176471,
+  command_recognition: 0.11764705882352941,
+  sign_recognition: 0.29411764705882354
+}
+command_recognition changed to 0.1
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.6578947368421053,
+  command_recognition: 0.013157894736842106,
+  sign_recognition: 0.32894736842105265
+}
+sign_recognition changed to 0.35
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+command_recognition changed to 1
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.7874015748031497,
+  command_recognition: 0.15748031496062992,
+  sign_recognition: 0.05511811023622047
+}
+sign_recognition changed to 2.5
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.5882352941176471,
+  command_recognition: 0.11764705882352941,
+  sign_recognition: 0.29411764705882354
+}
+command_recognition changed to 0.1
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.6578947368421053,
+  command_recognition: 0.013157894736842106,
+  sign_recognition: 0.32894736842105265
+}
+sign_recognition changed to 0.35
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+command_recognition changed to 1
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.7874015748031497,
+  command_recognition: 0.15748031496062992,
+  sign_recognition: 0.05511811023622047
+}
+sign_recognition changed to 2.5
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.5882352941176471,
+  command_recognition: 0.11764705882352941,
+  sign_recognition: 0.29411764705882354
+}
+command_recognition changed to 0.1
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.6578947368421053,
+  command_recognition: 0.013157894736842106,
+  sign_recognition: 0.32894736842105265
+}
+sign_recognition changed to 0.35
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+command_recognition changed to 1
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.7874015748031497,
+  command_recognition: 0.15748031496062992,
+  sign_recognition: 0.05511811023622047
+}
+sign_recognition changed to 2.5
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.5882352941176471,
+  command_recognition: 0.11764705882352941,
+  sign_recognition: 0.29411764705882354
+}
+command_recognition changed to 0.1
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.6578947368421053,
+  command_recognition: 0.013157894736842106,
+  sign_recognition: 0.32894736842105265
+}
+sign_recognition changed to 0.35
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+command_recognition changed to 1
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.7874015748031497,
+  command_recognition: 0.15748031496062992,
+  sign_recognition: 0.05511811023622047
+}
+sign_recognition changed to 2.5
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.5882352941176471,
+  command_recognition: 0.11764705882352941,
+  sign_recognition: 0.29411764705882354
+}
+command_recognition changed to 0.1
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.6578947368421053,
+  command_recognition: 0.013157894736842106,
+  sign_recognition: 0.32894736842105265
+}
+sign_recognition changed to 0.35
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+command_recognition changed to 1
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.7874015748031497,
+  command_recognition: 0.15748031496062992,
+  sign_recognition: 0.05511811023622047
+}
+command_recognition changed to 0.1
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+sign_recognition changed to 2.5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.6578947368421053,
+  command_recognition: 0.013157894736842106,
+  sign_recognition: 0.32894736842105265
+}
+sign_recognition changed to 0.35
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+command_recognition changed to 1
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.7874015748031497,
+  command_recognition: 0.15748031496062992,
+  sign_recognition: 0.05511811023622047
+}
+command_recognition changed to 0.1
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+sign_recognition changed to 2.5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.6578947368421053,
+  command_recognition: 0.013157894736842106,
+  sign_recognition: 0.32894736842105265
+}
+sign_recognition changed to 0.35
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+command_recognition changed to 1
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.7874015748031497,
+  command_recognition: 0.15748031496062992,
+  sign_recognition: 0.05511811023622047
+}
+command_recognition changed to 0.1
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+sign_recognition changed to 2.5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.6578947368421053,
+  command_recognition: 0.013157894736842106,
+  sign_recognition: 0.32894736842105265
+}
+sign_recognition changed to 0.35
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+command_recognition changed to 1
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.7874015748031497,
+  command_recognition: 0.15748031496062992,
+  sign_recognition: 0.05511811023622047
+}
+sign_recognition changed to 2.5
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.5882352941176471,
+  command_recognition: 0.11764705882352941,
+  sign_recognition: 0.29411764705882354
+}
+command_recognition changed to 0.1
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.6578947368421053,
+  command_recognition: 0.013157894736842106,
+  sign_recognition: 0.32894736842105265
+}
+sign_recognition changed to 0.35
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+command_recognition changed to 1
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.7874015748031497,
+  command_recognition: 0.15748031496062992,
+  sign_recognition: 0.05511811023622047
+}
+command_recognition changed to 0.1
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+sign_recognition changed to 2.5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.6578947368421053,
+  command_recognition: 0.013157894736842106,
+  sign_recognition: 0.32894736842105265
+}
+sign_recognition changed to 0.35
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+command_recognition changed to 1
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.7874015748031497,
+  command_recognition: 0.15748031496062992,
+  sign_recognition: 0.05511811023622047
+}
+sign_recognition changed to 2.5
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.5882352941176471,
+  command_recognition: 0.11764705882352941,
+  sign_recognition: 0.29411764705882354
+}
+command_recognition changed to 0.1
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.6578947368421053,
+  command_recognition: 0.013157894736842106,
+  sign_recognition: 0.32894736842105265
+}
+sign_recognition changed to 0.35
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+command_recognition changed to 1
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.7874015748031497,
+  command_recognition: 0.15748031496062992,
+  sign_recognition: 0.05511811023622047
+}
+command_recognition changed to 0.1
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+sign_recognition changed to 2.5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.6578947368421053,
+  command_recognition: 0.013157894736842106,
+  sign_recognition: 0.32894736842105265
+}
+sign_recognition changed to 0.35
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+command_recognition changed to 1
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.7874015748031497,
+  command_recognition: 0.15748031496062992,
+  sign_recognition: 0.05511811023622047
+}
+command_recognition changed to 0.1
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+sign_recognition changed to 2.5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.6578947368421053,
+  command_recognition: 0.013157894736842106,
+  sign_recognition: 0.32894736842105265
+}
+sign_recognition changed to 0.35
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+command_recognition changed to 1
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.7874015748031497,
+  command_recognition: 0.15748031496062992,
+  sign_recognition: 0.05511811023622047
+}
+command_recognition changed to 0.1
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+sign_recognition changed to 2.5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.6578947368421053,
+  command_recognition: 0.013157894736842106,
+  sign_recognition: 0.32894736842105265
+}
+sign_recognition changed to 0.35
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+command_recognition changed to 1
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.7874015748031497,
+  command_recognition: 0.15748031496062992,
+  sign_recognition: 0.05511811023622047
+}
+command_recognition changed to 0.1
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+sign_recognition changed to 2.5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.6578947368421053,
+  command_recognition: 0.013157894736842106,
+  sign_recognition: 0.32894736842105265
+}
+sign_recognition changed to 0.35
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+command_recognition changed to 1
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.7874015748031497,
+  command_recognition: 0.15748031496062992,
+  sign_recognition: 0.05511811023622047
+}
+command_recognition changed to 0.1
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+sign_recognition changed to 2.5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.6578947368421053,
+  command_recognition: 0.013157894736842106,
+  sign_recognition: 0.32894736842105265
+}
+sign_recognition changed to 0.35
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+command_recognition changed to 1
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.7874015748031497,
+  command_recognition: 0.15748031496062992,
+  sign_recognition: 0.05511811023622047
+}
+command_recognition changed to 0.1
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+sign_recognition changed to 2.5
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.6578947368421053,
+  command_recognition: 0.013157894736842106,
+  sign_recognition: 0.32894736842105265
+}
+sign_recognition changed to 0.35
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+command_recognition changed to 1
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.7874015748031497,
+  command_recognition: 0.15748031496062992,
+  sign_recognition: 0.05511811023622047
+}
+sign_recognition changed to 2.5
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.5882352941176471,
+  command_recognition: 0.11764705882352941,
+  sign_recognition: 0.29411764705882354
+}
+command_recognition changed to 0.1
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.6578947368421053,
+  command_recognition: 0.013157894736842106,
+  sign_recognition: 0.32894736842105265
+}
+sign_recognition changed to 0.35
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+command_recognition changed to 1
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.7874015748031497,
+  command_recognition: 0.15748031496062992,
+  sign_recognition: 0.05511811023622047
+}
+sign_recognition changed to 2.5
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.5882352941176471,
+  command_recognition: 0.11764705882352941,
+  sign_recognition: 0.29411764705882354
+}
+sign_recognition changed to 0.35
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.7874015748031497,
+  command_recognition: 0.15748031496062992,
+  sign_recognition: 0.05511811023622047
+}
+command_recognition changed to 0.1
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+command_recognition changed to 1
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.7874015748031497,
+  command_recognition: 0.15748031496062992,
+  sign_recognition: 0.05511811023622047
+}
+sign_recognition changed to 2.5
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 2.5 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.5882352941176471,
+  command_recognition: 0.11764705882352941,
+  sign_recognition: 0.29411764705882354
+}
+sign_recognition changed to 0.35
+Received the following weights: { visual_slam: 5, command_recognition: 1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.7874015748031497,
+  command_recognition: 0.15748031496062992,
+  sign_recognition: 0.05511811023622047
+}
+command_recognition changed to 0.1
+Received the following weights: { visual_slam: 5, command_recognition: 0.1, sign_recognition: 0.35 }
+Adjusted weights. Setting Docker weights to: {
+  visual_slam: 0.9174311926605506,
+  command_recognition: 0.018348623853211014,
+  sign_recognition: 0.06422018348623854
+}
+visual_slam changed to 2.5
+Received the following weights: { visual_slam: 2.5, command_recognition: 0.1, sign_recognition: 0.35 }
+Could not find container for docker container sign_recognition!
+Could not find container for docker container command_recognition!
+Adjusted weights. Setting Docker weights to: { visual_slam: 1 }
+Container command_recognition went down
+command_recognition changed to 0
+Received the following weights: { visual_slam: 2.5, command_recognition: 0, sign_recognition: 0.35 }
+Container sign_recognition went down
+sign_recognition changed to 0
+Received the following weights: { visual_slam: 2.5, command_recognition: 0, sign_recognition: 0 }
+Could not find container for docker container command_recognition!
+Could not find container for docker container sign_recognition!
+Adjusted weights. Setting Docker weights to: { visual_slam: 1 }
+Could not find container for docker container sign_recognition!
+Could not find container for docker container command_recognition!
+Adjusted weights. Setting Docker weights to: { visual_slam: 1 }
+Container visual_slam went down
+visual_slam changed to 0
+Received the following weights: { visual_slam: 0, command_recognition: 0, sign_recognition: 0 }
+Finished! Start: Sun Sep 08 2019 09:51:28 GMT-0400 (Eastern Daylight Time); End: Sun Sep 08 2019 09:55:34 GMT-0400 (Eastern Daylight Time); Duration: 245.946
+Could not find container for docker container command_recognition!
+Could not find container for docker container visual_slam!
+Could not find container for docker container sign_recognition!
+The sum of received weights equals zero.

@@ -1,6 +1,8 @@
 import csv from "csvtojson"
 import {promises as fs} from "fs"
 
+const maxTime = 30
+
 type Vec3 = [number, number, number]
 
 interface IMURow {
@@ -25,17 +27,19 @@ const readCsv = async (path: string) => {
     )
 
     const first = data[0]
-    return data.map(({accelerometer, timestamp}) => ({
-        accelerometer,
-        timestamp: timestamp - first.timestamp,
-    }))
+    return data
+        .map(({accelerometer, timestamp}) => ({
+            accelerometer,
+            timestamp: timestamp - first.timestamp,
+        }))
+        .filter(({timestamp}) => timestamp <= maxTime)
 }
 
 const main = async () => {
     const timeline = await readCsv("./data.csv")
 
     await fs.writeFile(
-        "./imu-timeline.json",
+        "./shared/timelines/imu-timeline.json",
         JSON.stringify({eventCount: timeline.length, timeline}, undefined, 4),
     )
 }
