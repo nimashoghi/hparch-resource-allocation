@@ -1,8 +1,7 @@
 import {bufferCount, map, startWith} from "rxjs/operators"
 import {config} from "./config"
-import {accelerometer, microphone, camera} from "./sensors"
+import {camera, imu, microphone} from "./sensors"
 import {distance} from "./util"
-import {empty} from "rxjs"
 
 const MOVE_THRESHOLD = 0.2
 const SLIDING_WINDOW_SIZE = 5
@@ -31,51 +30,36 @@ const getDistanceOf = (
 
 export default config(
     {
-        accelerometer,
+        imu,
         camera,
         microphone,
     },
     {
-        visual_slam: () => empty(),
-        command_recognition: () => empty(),
-        sign_recognition: () => empty(),
+        visual_slam: ({imu}) =>
+            imu.pipe(
+                bufferCount(SLIDING_WINDOW_SIZE, 1),
+                map(positions =>
+                    getDistanceOf(positions) >= MOVE_THRESHOLD ? 5.0 : 0.5,
+                ),
+                startWith(2.5),
+            ),
 
-        // visual_slam: ({accelerometer}) =>
-        //     accelerometer.pipe(
-        //         bufferCount(SLIDING_WINDOW_SIZE, 1),
-        //         map(positions => {
-        //             const distanceMoved = getDistanceOf(positions)
-        //             if (distanceMoved >= MOVE_THRESHOLD) {
-        //                 return 5.0
-        //             } else {
-        //                 return 2.5
-        //             }
-        //         }),
-        //         startWith(2.5),
-        //     ),
+        command_recognition: ({microphone}) =>
+            microphone.pipe(
+                map(({isActive}) => (isActive ? 1.0 : 0.1)),
+                startWith(0.1),
+            ),
 
-        // command_recognition: ({microphone}) =>
-        //     microphone.pipe(
-        //         map(({isActive}) => {
-        //             if (isActive) {
-        //                 return 1.0
-        //             } else {
-        //                 return 0.1
-        //             }
-        //         }),
-        //         startWith(0.1),
-        //     ),
-
-        // sign_recognition: ({camera}) =>
-        //     camera.pipe(
-        //         map(({isActive}) => {
-        //             if (isActive) {
-        //                 return 2.5
-        //             } else {
-        //                 return 0.35
-        //             }
-        //         }),
-        //         startWith(0.35),
-        //     ),
+        "random-computation": ({camera}) =>
+            camera.pipe(
+                map(({isActive}) => {
+                    if (isActive) {
+                        return 2.5
+                    } else {
+                        return 0.35
+                    }
+                }),
+                startWith(0.35),
+            ),
     },
 )

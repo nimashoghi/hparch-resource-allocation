@@ -1,7 +1,15 @@
 import deepEqual from "deep-equal"
 import {promises as fs} from "fs"
 import {combineLatest, interval} from "rxjs"
-import {distinctUntilChanged, filter, flatMap, map, share} from "rxjs/operators"
+import {
+    bufferTime,
+    distinctUntilChanged,
+    filter,
+    flatMap,
+    map,
+    share,
+} from "rxjs/operators"
+import {plot, startSocketServer} from "./chart"
 import {
     checkConfig,
     ConstructedSensors,
@@ -14,6 +22,7 @@ import {
 } from "./config"
 import {measureCpuUsage} from "./cpu"
 import {getAllContainers, getDockerContainerFor, setWeight} from "./docker"
+import {droppedFramesMain} from "./dropped-frames"
 import {foreachAsync, mapAsync, mapOptionAsync, toObject} from "./util"
 
 const BUFFER_DURATION = 100
@@ -84,12 +93,12 @@ const initializeModules = async (
     )
 
     return combineLatest(moduleWeights).pipe(
-        // bufferTime(BUFFER_DURATION),
-        // // bufferTime will call at BUFFER_DURATION regardless of change, so we filter that condition
-        // filter(values => values.length !== 0),
+        bufferTime(BUFFER_DURATION),
+        // bufferTime will call at BUFFER_DURATION regardless of change, so we filter that condition
+        filter(values => values.length !== 0),
 
         map(values =>
-            values.reduce(
+            values.flat().reduce(
                 (acc, {name, value}) => ({
                     ...acc,
                     [name]: value,
@@ -105,6 +114,11 @@ const sleep = async (interval: number) =>
     await new Promise<void>(resolve =>
         setInterval(() => resolve(), interval * 1000),
     )
+
+const preStart = async (path = "./shared/start.txt") => {
+    await fs.writeFile(path, "0")
+}
+
 const start = async (path = "./shared/start.txt") => {
     await fs.writeFile(path, "1")
 }
@@ -139,6 +153,11 @@ const writeWeights = async (
 const main = async () => {
     console.log(`Starting the service...`)
 
+    await preStart()
+
+    startSocketServer()
+    const droppedFramesSub = await droppedFramesMain()
+
     const config = await parseConfig({
         compose: getDockerComposePath(),
         config: getConfigPath(),
@@ -148,15 +167,22 @@ const main = async () => {
     const sensors = await initializeSensors(config.sensors)
     const modules = await initializeModules(sensors, config.modules)
 
-    await sleep(120)
+    console.log("Waiting for 5 seconds before starting...")
+    await sleep(5)
+    console.log("Starting now...")
     await start()
 
     startTime = Date.now()
     measureCpuUsage()
     const modulesSubscription = modules.subscribe(async weights => {
+        const weightsEntries = Object.entries(weights)
+        for (const [name, weight] of weightsEntries) {
+            plot("Absolute Weights", name, weight)
+        }
+
         // console.log(`Received the following weights: ${inspect(weights)}`)
         const weightsArrayUnfiltered = await mapOptionAsync(
-            Object.entries(weights),
+            weightsEntries,
             async ([name, weight]) => {
                 const container = await getDockerContainerFor(name)
                 if (!container) {
@@ -190,9 +216,12 @@ const main = async () => {
         //         toObject(adjustedWeights, ({name, weight}) => [name, weight]),
         //     )}`,
         // )
-        await foreachAsync(adjustedWeights, async ({container, weight}) => {
-            await setWeight(container.Id, weight)
-        })
+        await foreachAsync(
+            adjustedWeights,
+            async ({container, name, weight}) => {
+                await setWeight(container.Id, weight, name)
+            },
+        )
     })
 
     const allModulesDisabledSubscription = dockerInterval
@@ -205,10 +234,10 @@ const main = async () => {
         )
         .subscribe(() => {
             endTime = Date.now()
+            droppedFramesSub.unsubscribe()
             modulesSubscription.unsubscribe()
             allModulesDisabledSubscription.unsubscribe()
             finished()
-            return
         })
 }
 

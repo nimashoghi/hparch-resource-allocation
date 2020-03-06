@@ -17,21 +17,23 @@
     "devDependencies": {
         "@types/csvtojson": "^1.1.5",
         "@types/deep-equal": "^1.0.1",
-        "@types/dockerode": "^2.5.20",
-        "@types/js-yaml": "^3.12.1",
+        "@types/dockerode": "^2.5.22",
+        "@types/js-yaml": "^3.12.2",
+        "@types/socket.io": "^2.1.4",
         "get-audio-duration": "^1.0.0",
-        "prettier": "^1.18.2",
-        "ts-node": "^8.3.0",
-        "typescript": "^3.6.2"
+        "prettier": "^1.19.1",
+        "ts-node": "^8.6.2",
+        "typescript": "^3.7.5"
     },
     "dependencies": {
-        "csv-parse": "^4.4.5",
+        "csv-parse": "^4.8.5",
         "csvtojson": "^2.0.10",
-        "deep-equal": "^1.1.0",
-        "dockerode": "^2.5.8",
-        "execa": "^2.0.4",
+        "deep-equal": "^2.0.1",
+        "dockerode": "^3.1.0",
+        "execa": "^4.0.0",
         "js-yaml": "^3.13.1",
-        "node-os-utils": "^1.0.7",
-        "rxjs": "^6.5.2"
+        "node-os-utils": "^1.2.2",
+        "rxjs": "^6.5.4",
+        "socket.io": "^2.3.0"
     }
 }

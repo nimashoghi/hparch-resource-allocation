@@ -1,36 +1,24 @@
 version: "3.7"
 services:
-    visual_slam:
-        privileged: true
-        image: nimashoghi/ubuntu-xenial-orb-slam2-apps
-        command: slam_app /root/ORBvoc.txt MH01 stereo http://192.168.1.5:8080/slam/mono.yaml http://192.168.1.5:8080/slam/stereo.yaml http://192.168.1.5:8080/slam/cam0/data http://192.168.1.5:8080/slam/cam1/data http://192.168.1.5:8080/slam/timestamps.txt
-        volumes:
-            - "./shared/out/visual_slam/:/output/"
-            - "./shared/start.txt:/start"
-        stdin_open: true
-        tty: true
-
     command_recognition:
         privileged: true
-        image: jonasfallmann/pocketsphinx:x86
-        command: python3 /app/detect.py
+        image: nimashoghi/pocketsphinx
         volumes:
             - "./shared/models/command_recognition/:/model/"
             - "./shared/timelines/audio-timeline.json:/timeline.json"
-            - "./shared/scripts/detect.py:/app/detect.py"
             - "./shared/out/command_recognition/:/out/"
             - "./shared/start.txt:/start"
-        stdin_open: true
-        tty: true
-
-    sign_recognition:
+    random-computation:
         privileged: true
-        image: nimashoghi/digit-detection
-        command: python3 /app/infer.py
+        image: nimashoghi/random-computation
         volumes:
-            - "./shared/models/sign_recognition/:/model/"
-            - "./shared/timelines/sign-timeline.json:/timeline.json"
-            - "./shared/out/sign_recognition/:/out/"
             - "./shared/start.txt:/start"
-        stdin_open: true
-        tty: true
+            - "./shared/timelines/sign-timeline.json:/timeline.json"
+    visual_slam:
+        privileged: true
+        image: nimashoghi/ubuntu-xenial-orb-slam2-apps:2-13-20
+        command: slam_app /root/ORBvoc.txt MH01 mono http://172.18.0.1:8080/mono.yaml http://172.18.0.1:8080/stereo.yaml http://172.18.0.1:8080/mav0/cam0/data http://172.18.0.1:8080/mav0/cam1/data http://172.18.0.1:8080/timestamps.txt
+        volumes:
+            - "./shared/out/visual_slam/:/output/"
+            - "./shared/start.txt:/start"
+            - "./server.sock:/var/resource-allocator-ipc.sock"

@@ -1,0 +1,24 @@
+{
+    "name": "Node",
+    "dockerFile": "Dockerfile",
+    "runArgs": [
+        // privileged
+        "--privileged",
+        // host networking
+        "--network",
+        "host",
+        // volume
+        "-v",
+        "/var/run/docker.sock:/var/run/docker.sock",
+        // .env file
+        "--env-file",
+        "./.env"
+    ],
+    "extensions": [
+        "esbenp.prettier-vscode",
+        "dbaeumer.vscode-eslint",
+        "visualstudioexptteam.vscodeintellicode",
+        "wallabyjs.quokka-vscode",
+        "wallabyjs.wallaby-vscode"
+    ]
+}

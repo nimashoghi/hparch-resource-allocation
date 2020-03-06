@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Chart</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/1.33.1/plotly.min.js"
+            integrity="sha256-6izTmaU3LMinmbxDDcolK51XCh0s0TTREyeZXq335Nc="
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"
+            integrity="sha256-bQmrZe4yPnQrLTY+1gYylfNMBuGfnT/HKsCGX+9Xuqo="
+            crossorigin="anonymous"
+        ></script>
+    </head>
+    <body>
+        <script>
+            const socket = io("http://localhost:8085")
+
+            const charts = {}
+            socket.on("datapoint", datapoints => {
+                for (const {chartName, name, values} of datapoints) {
+                    if (!charts[chartName]) {
+                        charts[chartName] = {
+                            id: `plotly-chart-${chartName
+                                .toLowerCase()
+                                .replace(/ /g, "")}`,
+                            traces: [],
+                        }
+
+                        const elem = document.createElement("div")
+                        elem.setAttribute("id", charts[chartName].id)
+                        document.body.appendChild(elem)
+
+                        Plotly.plot(charts[chartName].id, [], {
+                            title: chartName,
+                        })
+                    }
+
+                    const {id, traces} = charts[chartName]
+
+                    const x = values.map(([x]) => x)
+                    const y = values.map(([, y]) => y)
+
+                    let index = traces.indexOf(name)
+                    if (index === -1) {
+                        index = traces.length
+                        traces.push(name)
+                        Plotly.addTraces(id, {x, y, name}, [index])
+                    } else {
+                        Plotly.extendTraces(id, {x: [x], y: [y]}, [index])
+                    }
+                }
+            })
+        </script>
+    </body>
+</html>

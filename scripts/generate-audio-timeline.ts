@@ -3,12 +3,12 @@ import {getAudioDurationInSeconds} from "get-audio-duration"
 import path from "path"
 
 const settings = {
-    maxDuration: 15,
+    maxDuration: 185,
     delayBetweenCommands: 3,
     delayRandomOffset: 1,
 }
 
-const basePath = "/home/nimas/Downloads/commands/"
+const basePath = "/home/nimas/Downloads/MH_01_easy/commands/"
 const outBasePath = "http://192.168.1.5:8080/commands"
 
 const commands = [

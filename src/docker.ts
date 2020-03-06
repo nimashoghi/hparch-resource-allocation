@@ -1,8 +1,9 @@
 import {execFile, execSync} from "child_process"
 import Docker from "dockerode"
+import {plot} from "./chart"
 
 const realtimeSchedulerFile = "/sys/fs/cgroup/cpu.rt_runtime_us"
-const hasRealtimeScheduler = false
+const hasRealtimeScheduler = true
 
 const getNumCpus = () =>
     parseInt(
@@ -48,8 +49,10 @@ const REALTIME_PERIOD = 1000000 - RESERVED_TIMESLICE
 export const setWeight = async (
     id: string,
     weight: number,
+    name: string,
     realtimePeriod = REALTIME_PERIOD,
 ) => {
+    plot("Adjusted Weights", name, weight)
     if (hasRealtimeScheduler) {
         const runtime = Math.trunc(weight * realtimePeriod)
         await runDockerCommand("update", `--cpu-rt-runtime=${runtime}`, id)
